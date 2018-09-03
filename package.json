@@ -1,0 +1,24 @@
+{
+  "name": "quote-generator",
+  "homepage": "https://Yohanesbawono94.github.io/quote-generator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "scss": "node-sass --watch src/scss -o src/css"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
