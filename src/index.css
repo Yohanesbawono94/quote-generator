@@ -2,4 +2,13 @@ body {
   background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url('https://res.cloudinary.com/dhdmx0ldw/image/upload/v1536032479/Pict/guilherme-stecanella-370401-unsplash.jpg');
   /*Photo by Guilherme Stecanella on Unsplash*/
   background-size: cover;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: transparent;
 }

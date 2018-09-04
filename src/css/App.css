@@ -16,6 +16,7 @@
 .quote-author {
   width: 100%;
   text-align: right;
+  margin-top: 15px;
   font-size: 25px; }
 
 .quote-buttons {
