@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: transparent;
+    color: white;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .quote-text {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .quote-author {
+    width: 100%;
+    text-align: right;
+    font-size: 25px;
+  }
+  
+  .quote-buttons {
+    width: 100%;
+    top: 0px;
+  }
+  
+  #tweet-quote {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2em;
+    color: #1DA1F2;
+  }
+  
+  #new-quote {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+  
+  @media(max-width:1360px) {
+    body {
+      background-size: 1360px;
+    }
+  }
+  
+  @media(max-width:1280px) {
+    body {
+      background-size: 1280px;
+    }
+  }
+  
+  @media(max-width:1024px) {
+    body {
+      background-size: 1024px;
+    }
+  }
+  
+  @media(max-width:900px) {
+    body {
+      background-size: 900px;
+    }
+  }
+  
+  @media(max-width:800px) {
+    .quote-text{
+      font-size: 25px;
+    }
+    .quote-author{
+      font-size: 20px;
+    }
+  }
+  @media(max-width:540px) {
+    .quote-text{
+      font-size: 22px;
+    }
+    .quote-author{
+      font-size: 17px;
+    }
+  }
